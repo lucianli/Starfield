@@ -97,8 +97,17 @@ class JumboParticle extends NormalParticle
 	void show() 
 	{
 		noStroke();
-		fill((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
-		ellipse((float)myX, (float)myY, 50, 50);
+		fill(40,80,150);
+		ellipse((float)myX,(float)myY,50,50);
+		fill(100,100,100);
+		ellipse((float)myX,(float)myY+12,90,30);
+		fill(255,255,0);
+		ellipse((float)myX-25,(float)myY+12,5,5);
+		ellipse((float)myX-15,(float)myY+10,5,5);
+		ellipse((float)myX-5,(float)myY+9,5,5);
+		ellipse((float)myX+5,(float)myY+9,5,5);
+		ellipse((float)myX+15,(float)myY+10,5,5);
+		ellipse((float)myX+25,(float)myY+12,5,5);
 	}
 }
 
